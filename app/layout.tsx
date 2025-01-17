@@ -9,12 +9,12 @@ import Footer from "./components/footer/Footer";
 const Header = () => {
   return (
     <div className="w-full bg-[#03487a] text-[#fff] p-[15px] flex items-center justify-center">
-      <div> We've Moved!- Check us out now at </div>
+      <div> {`We've Moved!- Check us out now at`} </div>
       <a
         className="w-40 bg-[#f0554d] rounded-[4px] ml-2 flex justify-center"
-        href="https://www.patioheatandshade.com/?bid=ppu&ac=ppu/"
+        href='https://www.patioheatandshade.com/?bid=ppu&ac=ppu/'
       >
-        PatioHeatandShade
+        {`PatioHeatandShade`}
       </a>
     </div>
   );
